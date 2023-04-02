@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".NextActivity">
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/relative">
+
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/_200sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:id="@+id/at"
+            >
+            <TextView
+                android:id="@+id/start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="at"
+                android:textSize="@dimen/_90sdp"
+                android:fontFamily="@font/playfair_display"
+                android:textColor="#000000"
+                />
+
+
+
+
+        </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_below="@+id/at">
+
+
+            <TextView
+                android:id="@+id/partyPlanet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/playfair_display"
+                android:text="Party Planet "
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="@dimen/_30sdp"
+                />
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/abc" />
+    </LinearLayout>
+
+</RelativeLayout>

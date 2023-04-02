@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PartyPlanetVendor</string>
+    <string name="msg_file_downloaded">File Downloaded: </string>
+    <string name="error_downloading">Erroe in downloading file</string>
+</resources>
